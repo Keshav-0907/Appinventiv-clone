@@ -3,10 +3,10 @@ import Navbar from "../(components)/Navbar";
 
 const Hero = () => {
   return (
-    <div class="">
+    <div class="h-[80vh] overflow-hidden">
       <Navbar />
       <div>
-        <div className="absolute text-white top-[50%] font-medium left-[10%] max-w-[1180px] ">
+        <div className="absolute text-white top-[30%] font-medium left-[10%] max-w-[1180px] ">
           <div className="text-[42px]">Meet the Digital Drivers of Global Disruptors</div>
           <div className="font-light">
             We catalyze business growth by reimagining digital experiences that <br/>
@@ -17,7 +17,7 @@ const Hero = () => {
           </div>
         </div>
         <video
-          class=""
+          class="align-middle object-cover w-full h-full"
           src="https://appinventiv.com/wp-content/themes/twentynineteen-child/new-images/video/home-video.mp4"
           autoPlay
           loop
